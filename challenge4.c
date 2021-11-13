@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+	printf("ce programe permit de calculer la somme de deux nombre et si les nombre sont egaux return le triple de leur somme.\n\n");
 	int A,B,som,trip;
 printf("entrer nombre A :\n");
 scanf("%d",&A);

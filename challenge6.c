@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
+	printf("ce programe permit de convirtir nombre anner donner au mois ou jours ou heurs ou minutes ou secande .\n\n");
  int an,M,choi,H,J,Min,S;
  printf("donner nombre d'anners :\n");
  scanf("%d",&an);

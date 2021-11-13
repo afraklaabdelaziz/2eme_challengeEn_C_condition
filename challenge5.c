@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
+	printf("ce programe permit de calculer les solutions possible une équation 2eme degre.\n\n");
 	float a,b,c,delta,X0,X1,X2;
 	printf("donner a :\n");
 	scanf("%f",&a);

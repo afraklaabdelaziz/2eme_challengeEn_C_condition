@@ -1,30 +1,31 @@
 #include<stdio.h>
 int main(){
+	printf("ce programme permit de verifie si un caractere est une voyelle ou non.\n\n");
 	char C;
-	printf("entrer un caractair :\n");
+	printf("entrer un caractere :\n");
 	scanf("%c",&C);
 	
 	switch(C) {
 		case 'a' :case 'A':
-			printf("le caractair %c est une voyelle ",C);
+			printf("le caractere %c est une voyelle ",C);
 			break;
-		case 'e':
-		    printf("le caractair %c est une voyelle ",C);
+		case 'e': case 'E':
+		    printf("le caractere %c est une voyelle ",C);
 		    break;
-		case 'i':
-		    printf("le caractair %c est une voyelle ",C);
+		case 'i' :case 'I':
+		    printf("le caractere %c est une voyelle ",C);
 			break;
-		case 'o':
-		    printf("le caractair %c est une voyelle ",C);
+		case 'o': case 'O':
+		    printf("le caractere %c est une voyelle ",C);
 		    break;
-		case 'u':
-		    printf("le caractair %c est une voyelle ",C);
+		case 'u': case 'U':
+		    printf("le caractere %c est une voyelle ",C);
 			break;
-		case 'y':
-		    printf("le caractair %c est une voyelle ",C);
+		case 'y': case 'Y':
+		    printf("le caractere %c est une voyelle ",C);
 			break;
 		default:
-		    printf("le caractair %c n'est pas voyelle ",C);
+		    printf("le caractere %c n'est pas voyelle ",C);
 			break; 		
 	}
 	return 0;

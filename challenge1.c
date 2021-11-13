@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
+	printf("ce programme permit de transfair le degre  Fahrenheit en degre celsius et affiche la sensation ressentie.\n\n");
 	float TF,TC;
 	printf("entre la temperature en Fahrenheit :\n");
 	scanf("%f",&TF);
