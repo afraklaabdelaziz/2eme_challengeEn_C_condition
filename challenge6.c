@@ -1,33 +1,34 @@
 #include<stdio.h>
 int main(){
-	printf("ce programe permit de convirtir nombre anner donner au mois ou jours ou heurs ou minutes ou secande .\n\n");
- int an,M,choi,H,J,Min,S;
+	printf("ce programme permit de convirtir nombre anner donner au mois ou jours ou heurs ou minutes ou secande .\n\n");
+ int choi,an;
+ long long int M,H,J,Min,S;
  printf("donner nombre d'anners :\n");
- scanf("%d",&an);
+ scanf("%ld",&an);
  
- printf(" 1: mois\n 2: jours\n 3: heurs\n 4: minutes\n 5: secande\n");
- printf("choisir un choix que vous voulez");
+ printf("les choix de ce programme .\n 1: mois\n 2: jours\n 3: heurs\n 4: minutes\n 5: secande\n");
+ printf("choisir un choix que vous voulez :");
  scanf("%d",&choi);
  M=an*12;
  J=M*30;
  H=J*24;
- Min=H*30;
- S=Min*30;
+ Min=H*60;
+ S=Min*60;
  switch(choi){
 case 1:
-	 printf("l'anner %d contient %d mois",an,M);
+	 printf("nombre d'anners entrer est : %d ans contient %lld mois ",an,M);
 	 break;
 case 2:
-	printf("l'anner %d contient % jours",an,J);
+	printf("nombre d'anners entrer est : %d ans contient %lld jours",an,J);
 	break;
 case 3:
-    printf("l'anner %d contient % heurs",an,H);
+    printf("nombre d'anners entrer est : %d ans contient %lld heurs",an,H);
     break;
 case 4:
-    printf("l'anner %d contient %d minutes",an,Min);
+    printf("nombre d'anners entrer est : %d ans contient %lld minutes",an,Min);
     break;
 case 5:
-	printf("l'anner %d contient %d secandes",an,S);
+	printf("nombre d'anners entrer est : %d ans contient %lld secandes",an,S);
 	break;
 default :
     printf("svp entrer un choix demander ");	
